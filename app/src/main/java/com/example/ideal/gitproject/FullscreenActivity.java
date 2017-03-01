@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.TextView;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -92,6 +93,8 @@ public class FullscreenActivity extends AppCompatActivity {
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
+       // TextView t1=(TextView) findViewById(R.id.fullscreen_content) ;
+        //TextView t2=(TextView) findViewById(R.id.fullscreen_content1) ;
 
 
         // Set up the user interaction to manually show or hide the system UI.
